@@ -39,8 +39,8 @@ PRESENCE: process.env.PRESENCE || "online", // Choose one: typing, recording, on
 TIME_ZONE: process.env.TIME_ZONE || "Africa/Nairobi", // Enter yours else leave blank if not sure
 };
 
-global.myName = "gifted-md"; // DO NOT Change this.... Change and Regret Later...
-global.footer = "*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢɪғᴛᴇᴅ ᴛᴇᴄʜ*"; // Input Yours custom...(Maintain font for Flow)
+global.myName = "zr-md"; // DO NOT Change this.... Change and Regret Later...
+global.footer = "*ᴘᴏᴡᴇʀᴅ ʙʏ 𝙓𝙕𝙍 𝙇𝙪𝙘𝙞*"; // Input Yours custom...(Maintain font for Flow)
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => { fs.unwatchFile(file);console.log(`Update'${__filename}'`);delete require.cache[file];require(file); })
